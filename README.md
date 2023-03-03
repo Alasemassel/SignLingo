@@ -1,4 +1,4 @@
 # SignLingo 
 
 
-WebSite SignLingo CopyRight Reserved
+WebSite SignLingo  All Copyright Reserved
