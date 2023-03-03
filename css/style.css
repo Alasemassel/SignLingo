@@ -161,8 +161,10 @@ a {
   text-decoration-color: var(--ui-color-typography-note);
 }
 
-h1,
-h2,
+
+h2 {
+  text-align: center;
+}
 p,
 ul { margin-top: 0; }
 
@@ -175,6 +177,7 @@ h2 {
 h1 {
   font-size: var(--ui-typography-h1);
   line-height: var(--ui-typography-h1-leading);
+  
 }
 h3 {
   font-size: var(--ui-typography-h3);
@@ -489,7 +492,7 @@ object {
 .ui-section-hero {
   padding-bottom: 5rem;
   padding-top: 5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .ui-section-hero__layout { row-gap: var(--ui-gap-hero); }
@@ -967,7 +970,8 @@ object {
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
-  .ui-text-intro { font-size: var(--ui-typography-h4); }
+  .ui-text-intro { 
+    font-size: var(--ui-typography-h4); }
 
   /*------------------------------------------------------------
   LAYOUT
@@ -1120,3 +1124,43 @@ object {
   color: #000000;
   border: 2px solid #000000;
 }
+.section-title{
+  position: relative;
+  color: #000000;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.section-title:before{
+  content: '';
+  position: absolute;
+  top: 56px;
+  left: 50%;
+  width: 140px;
+  height: 4px;
+  background: #000000;
+  transform: translateX(-50%);
+}
+
+.section-title:after{
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #000000;
+  transform: translateX(-50%);
+}
+div.a {
+  text-align:left;
+  
+}
+div.p {
+  text-align:left;
+  
+}
+
+
