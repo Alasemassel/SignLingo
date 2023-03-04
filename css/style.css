@@ -159,7 +159,13 @@ body {
 a {
   color: var(--ui-color-brand);
   text-decoration-color: var(--ui-color-typography-note);
+  /* text-decoration: none;
+  color: blue; */
+  align-items: center;
+  display: flex;
+  
 }
+
 
 
 h2 {
@@ -208,13 +214,18 @@ small { font-size: var(--ui-typography-s); }
 /*--------------------------------------------------------------
 4.0 IMAGE
 --------------------------------------------------------------*/
+header.a.lg{
+  vertical-align: middle;
 
+}
 img,
 svg {
   display: block;
   height: auto;
   margin: 0 auto;
   max-width: 100%;
+  
+
 }
 
 /*--------------------------------------------------------------
@@ -347,7 +358,7 @@ div label[for=ui-component-toggle__yearly] {
   background-repeat: no-repeat;
   background-size: 1.125rem;
   list-style: none;
-  padding-left: 1.875rem;
+  padding-right: 500px;
 }
 
 .ui-component-list--item-check {
@@ -434,10 +445,12 @@ object {
   background: var(--ui-color-brand);
   content: "";
   height: .125rem;
-  left: 0;
   position: absolute;
   transition: all 250ms cubic-bezier(.785, .135, .15, .86);
   width: 1.125rem;
+  left: 200px;
+
+
 }
 
 .ui-section-header--menu-icon::before { top: .3125rem; }
@@ -477,7 +490,7 @@ object {
   top: 0;
   visibility: visible;
   transition: 0.3s ease;
-
+  float: right;
 }
 
 .ui-section-header--nav-link {
@@ -766,7 +779,7 @@ object {
 
   .ui-component-list--item {
     background-size: 1.25rem;
-    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   /*------------------------------------------------------------
@@ -788,6 +801,7 @@ object {
 
   .ui-section-header--menu-icon { 
     display: none;
+    
    }
 
   /* NAV */
@@ -1106,6 +1120,7 @@ object {
 
 /* Top left text */
 .top-left {
+
   position: fixed;
   color:black;
   
@@ -1159,14 +1174,12 @@ object {
 }
 div.a {
   text-align:left;
-  
+
 }
 div.p {
   text-align:left;
   
 }
-
-
 .scrollToTop-btn{
   z-index: 999;
   position: fixed;
