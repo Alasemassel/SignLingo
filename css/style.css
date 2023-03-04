@@ -162,10 +162,13 @@ a {
   /* text-decoration: none;
   color: blue; */
   align-items: center;
-  display: flex;
   
-}
+} 
+b {
+  display: flex;
+  align-items: center;
 
+}
 
 
 h2 {
