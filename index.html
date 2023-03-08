@@ -25,6 +25,12 @@
     <link rel="preload" as="style" href="css/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/headers.css" rel="stylesheet">
+
+  
+
     <!-- TITLE -->
     <title>SignLingo</title>
   </head>
@@ -32,16 +38,26 @@
     <div class="scrollToTop-btn">
       <i class="fas fa-angle-up"></i>
     </div>
+    <!-- <header role="banner" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> -->
+      <header role="banner" class="ui-section-header">
 
-    <header role="banner" class="ui-section-header">
+    <!-- <header role="banner" class="ui-section-header"> -->
       <div class="ui-layout-container">
+        <!-- <div class="container"> -->
+          <!-- <header role="banner" class="ui-section-header"> -->
+            <!-- <header role="banner" class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"> -->
+
         <div class="ui-section-header__layout ui-layout-flex">
           <!-- LOGO -->
-
+          <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img alt="logo" src="img/resizedlogo.svg">
+            <span class="fs-4"><b>SignLingo</b></span>
+          </a>
+    
           <!-- <a href="#" role="link" aria-label="#" class="ui-section-header--logo"> -->
             <!-- <img src="img/logorm.png" viewBox="0 0 18 18"  height="100" width="100" > -->
             <!-- <img src="img/resizedlogo.svg" alt="#" class="ui-image-half-left"> -->
-            <div><b><img alt="logo" src="img/resizedlogo.svg">SignLingo </b></div>
+            <!-- <div><b><img alt="logo" src="img/resizedlogo.svg">SignLingo </b></div> -->
           <!-- <a href="#" id="lg"><img alt="logo" src="img/resizedlogo.svg"> <strong>SignLingo</strong></a> -->
             <!-- <div class="top-left"> <h3>SignLingo</h3></div> -->
 
@@ -56,9 +72,9 @@
 
           <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
       
-            <a href="#features" role="link" aria-label="#" class="ui-section-header--nav-link">Features</a>
-            <a href="#team" role="link" aria-label="#" class="ui-section-header--nav-link">Team</a>
-            <a href="#contact" role="link" aria-label="#" class="ui-section-header--nav-link">Contact Us</a>
+            <a href="#features" role="link" aria-label="#" class="nav-link px-2 link-dark">Features</a>
+            <a href="#team" role="link" aria-label="#" class="nav-link px-2 link-dark">Team</a>
+            <a href="#contact" role="link" aria-label="#" class="nav-link px-2 link-dark">Contact Us</a>
             <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Download App</a>
           </nav>
         </div>
