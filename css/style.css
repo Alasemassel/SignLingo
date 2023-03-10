@@ -49,7 +49,7 @@ TABLE OF CONTENT
   --ui-color-n-000: #fff;
   --ui-color-n-050: #e6f7ff;
   --ui-color-n-100: #55ADF7;
-  --ui-color-n-300: #F3A63E;
+  --ui-color-n-300: #F3A63E;   
   --ui-color-n-500: #353535;
   --ui-color-n-700: #282828;
   --ui-color-n-900: #1a1a1a;
@@ -104,13 +104,13 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
   
-  --ui-layout-container: 1.25rem;
+  /* --ui-layout-container: 1.25rem; */
   --ui-layout-grid     : 3.625rem;
   --ui-layout-gutter   : 1rem;
 
   /* GAP */
   
-  --ui-gap-header     : 1rem;
+  /* --ui-gap-header     : 1rem; */
   --ui-gap-cta        : .75rem;
   --ui-gap-hero       : 2rem;
   --ui-gap-customer   : 2rem;
@@ -235,10 +235,10 @@ svg {
 5.0 LAYOUT
 --------------------------------------------------------------*/
 
-.ui-layout-container {
+/* .ui-layout-container {
   padding-left: var(--ui-layout-container);
   padding-right: var(--ui-layout-container);
-}
+} */
 
 .ui-layout-flex,
 .ui-layout-grid {
@@ -279,6 +279,7 @@ svg {
   line-height: 1;
   text-align: center;
   text-decoration: none;
+  
 }
 
 .ui-component-button-primary {
@@ -304,7 +305,7 @@ svg {
 |
 --------------------------------------------------------------*/
 
-input[name="toggle"] { display: none; }
+/* input[name="toggle"] { display: none; }
 
 .ui-component-toggle {
   background-color: var(--ui-color-background-tertiary);
@@ -330,7 +331,7 @@ div label[for=ui-component-toggle__monthly],
 div label[for=ui-component-toggle__yearly] {
   background-color: var(--ui-color-background-primary);
   color: var(--ui-color-typography-body);
-}
+} */
 
 /*--------------------------------------------------------------
 |
@@ -382,13 +383,13 @@ div label[for=ui-component-toggle__yearly] {
 |
 --------------------------------------------------------------*/
 
-.ui-section-header {
+/* .ui-section-header { */
   /* padding-bottom: 1.25rem;
   padding-top: 1.25rem; */
-  z-index: 999;
-  position: fixed;
+  /* z-index: 999;
+  position: fixed; */
   /* background: #f3a332; */
-  background: #55ADF7;
+  /* background: #55ADF7;
   
   top: 0;
   left: 0;
@@ -397,25 +398,25 @@ div label[for=ui-component-toggle__yearly] {
   padding: 15px 10px;
   display: flex;
   align-items: center;
-  transition: 0.5s ease;
+  transition: 0.5s ease; */
 
 }
 
-.ui-section-header__layout { 
-  justify-content: space-between; }
+/* .ui-section-header__layout { 
+  justify-content: space-between; } */
 
 /* LOGO */
 
-.ui-section-header--logo { 
-  z-index: 999;
+/* .ui-section-header--logo { 
+  z-index: 999; */
   /* padding-left: 10px;
   padding-bottom: 90px; */
-  top: 0px;
+  /* top: 0px;
   left: 0px;
   float:left;
   
 
-}
+} */
 object {
   
   height: px;
@@ -430,7 +431,7 @@ object {
 
 /* HAMBURGER */
 
-#ui-section-header--menu-id { display: none; }
+/* #ui-section-header--menu-id { display: none; }
 
 .ui-section-header--menu-icon {
   cursor: pointer;
@@ -468,11 +469,11 @@ object {
 #ui-section-header--menu-id:checked ~
 .ui-section-header--menu-icon::after {
   transform: translateY(-3px) rotate(45deg);
-}
+} */
 
 /* MENU */
 
-.ui-section-header--nav {
+/* .ui-section-header--nav {
   background-color: var(--ui-color-background-primary);
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.05);
   flex-direction: column;
@@ -485,9 +486,9 @@ object {
   top: -1rem;
   transition: all 250ms cubic-bezier(.785, .135, .15, .86);
   visibility: hidden;
-}
+} */
 
-#ui-section-header--menu-id:checked ~
+/* #ui-section-header--menu-id:checked ~
 .ui-section-header--nav {
   opacity: 1;
   top: 0;
@@ -500,7 +501,7 @@ object {
   font-size: var(--ui-typography-h3);
   padding: .5rem;
   text-decoration: none;
-}
+} */
 
 /*--------------------------------------------------------------
 |
@@ -596,7 +597,7 @@ object {
 
 /* AMOUNT */
 
-.ui-component-card--pricing-amount-1::before { content: "$5"; }
+/* .ui-component-card--pricing-amount-1::before { content: "$5"; }
 
 #ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-1::before { content: "$3"; }
@@ -609,7 +610,7 @@ object {
 .ui-component-card--pricing-amount-3::before { content: "$25"; }
 
 #ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$23"; }
+.ui-component-card--pricing-amount-3::before { content: "$23"; } */
 
 /* LIST */
 
@@ -726,7 +727,7 @@ object {
 
     /* GAP */
 
-    --ui-gap-header: 1.5rem;
+    /* --ui-gap-header: 1.5rem; */
     --ui-gap-card  : 1.5rem;
 
   }
@@ -747,11 +748,11 @@ object {
   LAYOUT
   ------------------------------------------------------------*/
 
-  .ui-layout-container,
+  /* .ui-layout-container,
   .ui-layout-column-center {
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
   .ui-layout-grid-2,
   .ui-layout-grid-3 {
@@ -795,21 +796,21 @@ object {
   |
   ------------------------------------------------------------*/
 
-  .ui-section-header {
+  /* .ui-section-header {
     padding-bottom: 0rem;
     padding-top: 2rem;
-  }
+  } */
 
   /* ICON */
 
-  .ui-section-header--menu-icon { 
+  /* .ui-section-header--menu-icon { 
     display: none;
     
-   }
+   } */
 
   /* NAV */
 
-  .ui-section-header--nav {
+  /* .ui-section-header--nav {
     background-color: transparent;
     box-shadow: none;
     flex-direction: row;
@@ -822,10 +823,10 @@ object {
   
   .ui-section-header--nav-link {
     /* font-size: var(--ui-typography-p); */
-    font-size:85%;
+    /* font-size:85%;
 
     padding: 0;
-  }
+  } */ */
 
   /*------------------------------------------------------------
   |
@@ -904,7 +905,7 @@ object {
     |
     ----------------------------------------------------------*/
 
-    --ui-layout-container: 0;
+    /* --ui-layout-container: 0; */
   
   }
 
@@ -912,7 +913,7 @@ object {
   LAYOUT
   ------------------------------------------------------------*/
   
-  .ui-layout-container { width: 60rem; }
+  /* .ui-layout-container { width: 60rem; } */
 
   .ui-layout-grid-3 { grid-template-columns: repeat(3, 1fr); }
 
@@ -979,7 +980,7 @@ object {
 
     /* GAP */
 
-    --ui-gap-header  : 2rem;
+    /* --ui-gap-header  : 2rem; */
     --ui-gap-customer: 4rem;
     --ui-gap-card    : 2rem;
     --ui-gap-pricing : 3rem;
@@ -997,7 +998,7 @@ object {
   LAYOUT
   ------------------------------------------------------------*/
   
-  .ui-layout-container { width: 70rem; }
+  /* .ui-layout-container { width: 70rem; } */
 
   /*------------------------------------------------------------
   COMPONENT
@@ -1025,7 +1026,7 @@ object {
   |
   ------------------------------------------------------------*/
 
-  .ui-section-header { padding-top: 3rem; }
+  /* .ui-section-header { padding-top: 3rem; } */
 
   /*------------------------------------------------------------
   |
@@ -1145,7 +1146,7 @@ object {
   color: #000000;
   border: 2px solid #000000;
 }
-.section-title{
+/* .section-title{
   position: relative;
   color: #000000;
   font-size: 2.2em;
@@ -1174,7 +1175,7 @@ object {
   border-radius: 50%;
   background: #000000;
   transform: translateX(-50%);
-}
+} */
 div.a {
   text-align:left;
 
