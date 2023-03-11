@@ -73,14 +73,14 @@
 
     
     //====== counter up 
-    var cu = new counterUp({
-        start: 0,
-        duration: 2000,
-        intvalues: true,
-        interval: 100,
-        append: " ",
-    });
-    cu.start();
+    // var cu = new counterUp({
+    //     start: 0,
+    //     duration: 2000,
+    //     intvalues: true,
+    //     interval: 100,
+    //     append: " ",
+    // });
+    // cu.start();
 
     //======== tiny slider
 	// var slider = new tns({
