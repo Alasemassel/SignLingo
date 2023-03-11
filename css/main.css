@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Sen:wght@400;700;800&display=swap");
 html {
   scroll-behavior: smooth;
+  tab-size: 5;
 }
 
 body {
@@ -10,6 +11,9 @@ body {
   font-style: normal;
   color: #000000;
   overflow-x: hidden;
+  line-height: inherit;
+  margin: 0;
+
 }
 
 * {
